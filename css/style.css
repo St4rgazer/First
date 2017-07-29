@@ -1,8 +1,85 @@
 body {
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", sans-serif;
-	color: #fff;
-	background:url("../img/in-bg.jpg") no-repeat center top;
 
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0
+
+}
+body {
+	color: #fff;
+	background: #000000 url("../img/in-bg.jpg") no-repeat 50% 3px;
+	background-size: 1122px auto;
+}
+.clearfix::after {
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin:0 auto;
+}
+.main-header {
+	margin-bottom: 60px;
+}
+.menu-navigation {
+	width: 780px;
+	float: left;
+}
+.user-block {
+	width: 140px;
+	float: right;
+}
+.index-logo {
+	height: 204px;
+	width: 368px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+.features {
+	margin-bottom: 80px;
+}
+.features-item {
+	float: left;
+	margin-right: 20px;
+	width: 300px;
+
+}
+.features-item:last-child {
+	margin-right: 0;
+}
+.index-content {
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
+.index-content-left {
+	float: left;
+	width: 380px;
+	min-height: 330px;
+}
+.index-content-right {
+	float: right;
+	width: 300px;
+	min-height: 330px;
+}
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.footer-contacts {
+float: left;
+width: 320px;
+margin-right: 60px;
+}
+.footer-social {
+float: left;
+width: 180px;
+}
+.footer-copyright {
+float: right;
+width: 180px;
 }
